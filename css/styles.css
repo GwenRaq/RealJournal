@@ -1,0 +1,90 @@
+header
+{
+	font-family: 'Lobster Two', cursive;
+	margin-bottom:2%;
+	color: white;
+}
+
+#about{
+	float-right: 15%;
+}
+
+body{
+	background-image: url(http://oi67.tinypic.com/lzaxe.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.header2{
+	margin-left:45.5%
+}
+
+.content{
+	height:auto;
+	background-color: lightpink;
+	margin:20px;
+	border: 2px dashed #FF6699;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+
+.allpost{
+	width: 60%;
+	float: right;
+}
+
+p, nav{
+	font-family: 'Dekko', cursive;
+}
+
+}
+.second:hover{
+  background-color: #F5A623;
+}
+}
+
+h4{
+	font-family: 'Ubuntu', sans-serif;
+}
+h2{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.content{
+    animation-name: hue;
+    animation-duration: 10s;
+    border-radius: 8px;
+}
+@keyframes hue{
+    from {background-color: white;}
+    to {background-color: lightpink;}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){
+	.content{
+		background-color:white;
+	}
+	.aside{
+		background-color:white;
+		color:lightpink;
+	}
+	header{
+		color:purple;
+	}
+	p{
+		color: purple;
+	}
+}
+
+@media screen and (min-width:100px) and (max-width: 500px){
+	.content{
+		background-color:#CC99FF;
+	}
+	header{
+		color:pink;
+	}
+	.aside{
+		color: white;
+	}
+}
